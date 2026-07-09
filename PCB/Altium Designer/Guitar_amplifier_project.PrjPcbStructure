@@ -2,3 +2,5 @@ Record=TopLevelDocument|FileName=01_MCU_DSP..SchDoc|SheetNumber=1
 Record=NoMainPathDocument|SourceDocument=01_MCU_DSP..SchDoc|FileName=02_DAC_Audio.SchDoc|SheetNumber=2
 Record=NoMainPathDocument|SourceDocument=01_MCU_DSP..SchDoc|FileName=03_Power_Amp.SchDoc|SheetNumber=3
 Record=NoMainPathDocument|SourceDocument=01_MCU_DSP..SchDoc|FileName=04_Power_Supply.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=01_MCU_DSP..SchDoc|FileName=SDIO_SD_CARD.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=01_MCU_DSP..SchDoc|FileName=USB_TTL.SchDoc|SheetNumber=6
