@@ -41,9 +41,18 @@
   </CXNetClasses>
   <ConstraintClearancesMatrix>
     <CCMFromScopes>
-      <CCMFromScope Id="9fc6f0dc-1220-4e4f-9b7a-c0bc1cc8383f">
+      <CCMFromScope Id="0c76e923-a4d0-4996-a89d-5802cdba26a0">
         <ConstraintObject Id="00000000-0000-0000-0000-000000000000" />
-        <CCMToScopes />
+        <CCMToScopes>
+          <CCMToScope Id="682fbd60-e272-4aa0-8669-85415732b562" SetId="00000000-0000-0000-0000-000000000000">
+            <ConstraintObject Id="00000000-0000-0000-0000-000000000000" />
+            <DefaultConstraintClearancesMatrixConstraint Id="00000000-0000-0000-0000-000000000000" Kind="0" Comment="" Description="" Attributes="" LayerType="0" LayerId="0" />
+            <CCMConstraints>
+              <CCMConstraint Id="ad45a527-43da-4fc1-ac32-975adf35b0d5" Kind="0" Name="Clearance_1" Comment="" Description="Clearance Constraint [Clearance = 10mil]" Scope1="(ExistsOnLayer('Layer 1') Or ExistsOnLayer('Layer 2'))" Scope2="(ExistsOnLayer('Layer 1') Or ExistsOnLayer('Layer 2'))" Attributes="NETSCOPE=DifferentNets|LAYERKIND=SameLayer|GAP=10mil|GENERICCLEARANCE=10mil|IGNOREPADTOPADCLEARANCEINFOOTPRINT=FALSE|OBJECTCLEARANCES= |DOC=Guitare_amplifier_project.PcbDoc" LayerType="2" LayerId="0" />
+              <CCMConstraint Id="2a4a3762-d456-439c-9dd9-4438cb31ab32" Kind="0" Name="Clearance_2" Comment="" Description="Clearance Constraint [Clearance = 10mil]" Scope1="(ExistsOnLayer('Top Layer') Or ExistsOnLayer('Bottom Layer'))" Scope2="(ExistsOnLayer('Top Layer') Or ExistsOnLayer('Bottom Layer'))" Attributes="NETSCOPE=DifferentNets|LAYERKIND=SameLayer|GAP=10mil|GENERICCLEARANCE=10mil|IGNOREPADTOPADCLEARANCEINFOOTPRINT=FALSE|OBJECTCLEARANCES= |DOC=Guitare_amplifier_project.PcbDoc" LayerType="1" LayerId="0" />
+            </CCMConstraints>
+          </CCMToScope>
+        </CCMToScopes>
       </CCMFromScope>
     </CCMFromScopes>
   </ConstraintClearancesMatrix>
